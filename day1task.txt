@@ -1,0 +1,16 @@
+2.HTTP 1.1 vs HTTP 2
+         
+                                 
+The main difference is loading the resources , in http 1.1 it loads one after the other , 
+if one resource cannot load it blocks the resource following . In http 2 it uses a single  
+tcp connection to send multiple streams of data at once. http 2 is much faster than http 1.1.
+And http 3 is growing now. It is much faster and secure than http 2.
+
+3.Object
+ 
+First thought after hearing the object is “ object is a real world entity”.
+Object is an unordered collection of data of any type and in the form of key:value pair .
+We can use functions in objects but it is called as methods.Best way to declare an object is in object literal.
+Let student={name:”hari”, class:”b28”};
+We can call it use . operator 
+console.log(student.name);
